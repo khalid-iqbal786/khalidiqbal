@@ -77,7 +77,8 @@ button:hover{
 
 .containermain{
     display: flex;
-   
+    justify-content: space-evenly;
+    
     
 }
 .container2{
@@ -86,7 +87,6 @@ button:hover{
    
 }
 .container2 > h1{
-    flex-wrap: wrap;
     position: absolute;
     padding-left: 10%;
     padding-top: 160px;
@@ -113,12 +113,11 @@ button:hover{
     color: #ffffff;
 }
 
-.container3{
-    align-items: flex-start;
-flex: 1 0 auto;
+.container2{
+
 }
 
-.container3 > img{
+.container2 > img{
     width: 500px;
     padding-top: 220px;
     position: absolute;
