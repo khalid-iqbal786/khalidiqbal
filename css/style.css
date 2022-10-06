@@ -446,7 +446,7 @@ form textarea {
   }
   .texthello{
     font-size: var(--big-font22);
-    margin-left: -0.3rem;
+    margin-left: -0.2rem;
       }
   .home {
     grid-template-columns: 0.5fr 3fr;
@@ -491,7 +491,7 @@ form textarea {
   }
   .texthello{
   font-size: var(--big-font22);
-  margin-left: -0.3rem;
+  margin-left: -0.2rem;
   }
   .home-text span {
     font-size: 1rem;
