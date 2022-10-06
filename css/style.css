@@ -22,6 +22,7 @@
   --hover: #76CC11;
  
   --big-font: 3.2rem;
+  --big-font2: 11rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
 }
@@ -117,6 +118,14 @@ header.shadow {
   font-weight: 500;
   color: #fff;
 }
+
+.texthello{
+  font-size: var(--big-font2);
+  font-weight: bold;
+  opacity: .4;
+  margin-left: -0.7rem;
+}
+
 .home-text h1 {
   font-size: var(--big-font);
   color: #fff;
@@ -397,6 +406,7 @@ form textarea {
 @media (max-width: 768px) {
   :root {
     --big-font: 2.4rem;
+    --big-font22: 3.7rem;
     --medium-font: 1.2rem;
   }
   header {
@@ -434,6 +444,10 @@ form textarea {
   .scroll-down {
     display: none;
   }
+  .texthello{
+    font-size: var(--big-font22);
+    margin-left: -0.3rem;
+      }
   .home {
     grid-template-columns: 0.5fr 3fr;
   }
@@ -472,7 +486,12 @@ form textarea {
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;
+    --big-font22: 3.7rem;
     --medium-font: 1.1rem;
+  }
+  .texthello{
+  font-size: var(--big-font22);
+  margin-left: -0.3rem;
   }
   .home-text span {
     font-size: 1rem;
